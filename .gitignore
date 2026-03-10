@@ -1,0 +1,25 @@
+# Environnement et secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Conda / venv
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Données lourdes (modèles, index FAISS)
+vector_db/
+
+# OS
+.DS_Store
+Thumbs.db
